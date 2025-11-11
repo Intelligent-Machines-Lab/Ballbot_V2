@@ -1,4 +1,4 @@
-# Ballbot_V2
+# Ballbot_LMI_V2
 
 **Author:** Leandro Ventricci  
 **Advisor:** Prof. Dr. Cairo Lúcio Nascimento Júnior
@@ -8,7 +8,7 @@ This repository contains the source code, STL files, and experimental results de
 ## Repository Structure
 
 | Directory | Description |
-|------------|-------------|
+|---------|-------------|
 | [**`/Experimental Results/Data Bags`**](./Experimental%20Results/Data%20Bags/) | Provides the ROS bag files acquired during the experiments, which contain the recorded ROS topic data used for analysis. |
 | [**`/Experimental Results/Videos`**](./Experimental%20Results/Videos/) | Provides video recordings of the experimental results obtained with the Ballbot prototype. The videos are also available online at [Google Drive](https://drive.google.com/drive/folders/1ocQBuRk292TQQt81lqkflchQvDIo9T61?usp=sharing). |
 | [**`/Microcontroller`**](/Microcontroller/src) | Provides the PlatformIO project containing the ESP32 firmware. |
