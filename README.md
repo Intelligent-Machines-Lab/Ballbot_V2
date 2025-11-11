@@ -6,19 +6,21 @@ This repository contains the source code, STL files, and experimental results de
 
 | Directory | Description |
 |------------|-------------|
+| [**`/Data Bags`**](./Experimental%20Results/Data%20Bags/) | Provides the ROS bag files acquired during the experimental trials, offering the recorded topic data used for analysis and validation. |
+| [**`/Videos`**](./Experimental%20Results/Videos/) | Provides video recordings of the experimental results obtained with the Ballbot prototype. The videos are also available online at [Google Drive](https://drive.google.com/drive/folders/1ocQBuRk292TQQt81lqkflchQvDIo9T61?usp=sharing). |
 | [**`/Microcontroller`**](/Microcontroller/src) | PlatformIO project containing the ESP32 firmware. |
-| [**`/STL`**](/STL/) | STL for the mechanical structure of the Ballbot for 3D printing. |
-| [**`/Simulations/2D`**](https://github.com/LeandroVentricci/LMI_Ballbot_V2/tree/main/Simulations/2D) | MATLAB simulations for the X–Z and X–Y planar models, used for control design and validation. |
-| [**`/Simulations/3D`**](https://github.com/LeandroVentricci/LMI_Ballbot_V2/tree/main/Simulations/3D) | CoppeliaSim environment developed to validate the 2D model using a full 3D representation of the Ballbot. |
+| [**`/STL`**](/STL/) | STL files for the mechanical structure of the Ballbot for 3D printing. |
+| [**`/Simulations/2D`**](/Simulations/2D) | MATLAB simulations for the X–Z and X–Y planar models, used for control design and validation. |
+| [**`/Simulations/3D`**](/Simulations/3D) | CoppeliaSim environment developed to validate the 2D model using a full 3D representation of the Ballbot. |
 
 ## MATLAB Simulations
 
-The MATLAB simulation files for the Ballbot’s dynamic modeling and control are available in the [**`/Simulations/2D`**](https://github.com/LeandroVentricci/LMI_Ballbot_V2/tree/main/Simulations/2D) directory.  
+The MATLAB simulation files for the Ballbot’s dynamic modeling and control are available in the [**`/Simulations/2D`**](/Simulations/2D) directory.  
 These simulations cover both the X–Z and X–Y planar models, developed using **MATLAB version 2023b**.
 
 ## 3D Simulation Environment
 
-The 3D simulation files are available in the [**`/Simulations/3D`**](https://github.com/LeandroVentricci/LMI_Ballbot_V2/tree/main/Simulations/3D) directory. The environment was developed using **CoppeliaSim Edu version 4.10**.
+The 3D simulation files are available in the [**`/Simulations/3D`**](/Simulations/3D) directory. The environment was developed using **CoppeliaSim Edu version 4.10**.
 
 ## Bill of Materials
 
